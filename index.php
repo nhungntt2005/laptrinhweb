@@ -43,6 +43,8 @@
         <a class="assignment-link" href="bai1.php">Bài 1: Xem bài</a>
         <a class="assignment-link" href="bai2.php">Bài 2: Xem bài</a>
         <a class="assignment-link" href="bai3.php">Bài 3: Xem bài</a>
+        <a class="assignment-link" href="gethost.php">gethost: Xem bài</a>
     </div>
 </body>
+
 </html>
