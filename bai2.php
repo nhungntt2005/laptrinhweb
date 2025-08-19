@@ -1,4 +1,4 @@
-<<?php
+<?php
 // Tạo dữ liệu mẫu
 $books = [];
 for ($i = 1; $i <= 100; $i++) {
@@ -48,11 +48,28 @@ $currentBooks = array_slice($books, $start, $rowsPerPage);
             background-color: #007bff;
             color: white;
         }
+        .home-button {
+            display: block;
+            width: 100px;
+            margin: 20px auto;
+            padding: 10px 0;
+            text-align: center;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .home-button:hover {
+            background-color: #218838;
+        }
     </style>
 </head>
 <body>
 
 <h2 style="text-align:center;">Danh sách sách</h2>
+
+<!-- Nút quay lại trang chủ -->
+<a href="index.php" class="home-button">Trang chủ</a>
 
 <table>
     <tr>
