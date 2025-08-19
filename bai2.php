@@ -68,8 +68,9 @@ $currentBooks = array_slice($books, $start, $rowsPerPage);
 
 <h2 style="text-align:center;">Danh sách sách</h2>
 
-<!-- Nút quay lại trang chủ -->
-<a href="index.php" class="home-button">Trang chủ</a>
+<div class="nav-buttons">
+    <a class="home-button" href="index.php">🏠 Quay lại trang chủ</a>
+  </div>
 
 <table>
     <tr>
