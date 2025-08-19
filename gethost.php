@@ -3,6 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <title>Form Sách - GET và POST</title>
+  <style>
+    .nav-buttons {
+      margin-top: 20px;
+    }
+
+    .home-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .home-button:hover {
+      background-color: #2980b9;
+    }
+  </style>
 </head>
 <body>
   <h1>Thông Tin Sách</h1>
@@ -26,6 +48,10 @@
 
   <h2>Dữ liệu đã gửi:</h2>
   <pre id="output">Chưa có dữ liệu nào được gửi.</pre>
+
+  <div class="nav-buttons">
+    <a class="home-button" href="index.php">🏠 Quay lại trang chủ</a>
+  </div>
 
   <script>
     function getFormData() {
