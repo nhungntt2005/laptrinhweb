@@ -44,9 +44,9 @@
         <a class="assignment-link" href="bai2.php">Bài 2: Xem bài</a>
         <a class="assignment-link" href="bai3.php">Bài 3: Xem bài</a>
         <a class="assignment-link" href="gethost.php">gethost: Xem bài</a>
-        <a class="back-link" href="javascript:history.back()">⬅️ Quay lại</a>
     </div>
 </body>
 
 </html>
+
 
